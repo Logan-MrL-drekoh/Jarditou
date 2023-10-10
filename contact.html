@@ -62,7 +62,7 @@
                 name="prenom"
                 placeholder="Entrez votre prenom"
                 pattern="^[A-z]+$"
-                required="required"
+                required
                 id="prenom"
               /><br />
               <br />
@@ -76,7 +76,7 @@
                 type="number"
                 name="postal"
                 placeholder="Entrez votre Code Postal"
-                required="required"
+                required
                 id="postal"
               /><br />
               <br />
@@ -86,7 +86,7 @@
                 name="Adresse"
                 placeholder="Entrez votre adresse"
                 pattern="^[A-z]+$+[0-9]"
-                required="required"
+                required
                 id="adresse"
               /><br />
               <br />
@@ -96,7 +96,7 @@
                 name="Ville"
                 placeholder="Entrez votre ville"
                 pattern="^[A-z]+$"
-                required="required"
+                required
                 id="ville"
               />
               <br><br>
@@ -106,7 +106,7 @@
                 name="email"
                 placeholder="Entrez votre Email"
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                required="required"
+                required
                 id="email"
               /><br />
             </fieldset>
@@ -114,7 +114,7 @@
               <legend>Votre Demande</legend>
               <label for="Question" id="sujet">Sujet*:</label>
               <select id="Question" >
-                <option value="1" disabled hidden>Veuillez séléctionner un sujet</option>
+                <option value="1" disabled hidden selected>Veuillez séléctionner un sujet</option>
                 <option value="2">Mes commandes</option>
                 <option value="3">Question sur un produit</option>
                 <option value="4">Réclamation</option>
@@ -126,7 +126,7 @@
                 name="Question"
                 cols="10"
                 rows="5"
-                required="required">
+                required>
               </textarea>
                
               
