@@ -1,21 +1,26 @@
 @media  screen and (max-width: 768px)
 {
+    body{
+        max-width: 768px;
+    }
     
+
+
     header{
         display: flex;
-        gap: 20rem;
+        gap: 9rem;
     }
     
-    
-    
-    #container{
-        font-size: 20px;
-        
+    #logo{
+        width: 30%;
     }
+    
+   
     aside{
         background-color: grey;
         width: 0%;
         height: auto;
+        display: none;
     }
     section{
         width: 100%;
@@ -23,6 +28,16 @@
     
     }
  
-    
+ul{
+  display: block;
+  text-align: center;
+  flex-direction: column;
+}
+  
+table{
+  width: 100%;
+}
+
+  
 }
 
