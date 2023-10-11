@@ -1,14 +1,12 @@
 @media  screen and (max-width: 768px)
 {
-    body{
+    *{
         max-width: 768px;
     }
     
-
-
-    header{
+     header{
         display: flex;
-        gap: 9rem;
+        gap: 20%;
     }
     
     #logo{
@@ -17,9 +15,6 @@
     
    
     aside{
-        background-color: grey;
-        width: 0%;
-        height: auto;
         display: none;
     }
     section{
@@ -40,4 +35,5 @@ table{
 
   
 }
+
 
