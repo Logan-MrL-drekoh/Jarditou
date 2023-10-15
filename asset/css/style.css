@@ -221,6 +221,10 @@ span{
     nav{
         width: 100%;
     }
+
+    .link:hover{
+        background-color:burlywood;
+    }
     
     ul{
         display: flex;
